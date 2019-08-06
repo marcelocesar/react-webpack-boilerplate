@@ -1,0 +1,25 @@
+$bg-color: red;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, rgba(255,0,0,0.7), rgba(255,0,100,0.7)), url('../img/image.jpg');
+    background-size: cover;
+}
+
+.app {
+    color: white
+}
+
